@@ -49,26 +49,44 @@
 							<form action="#" method="post">
 								<fieldset class="manufacturer">
 									<h2>Производители</h2>
-									<input type="checkbox" name="Baxter" id="Baxter" checked>
-									<label for="Baxter">Baxter of California</label>
-									<input type="checkbox" name="MrNatty" id="MrNatty">
-									<label for="MrNatty">Mr Natty</label>
-									<input type="checkbox" name="Suavecito" id="Suavecito" checked>
-									<label for="Suavecito">Suavecito</label>
-									<input type="checkbox" name="Malin" id="Malin">
-									<label for="Malin">Malin+Goetz</label>
-									<input type="checkbox" name="Murrays" id="Murrays">
-									<label for="Murrays">Murray’s</label>
-									<input type="checkbox" name="AmericanCrew" id="AmericanCrew" checked>
-                  <label for="AmericanCrew">American Crew</label>
+									<div>
+										<input type="checkbox" name="Baxter" id="Baxter" checked>
+										<label for="Baxter">Baxter of California</label>
+									</div>
+									<div>
+										<input type="checkbox" name="MrNatty" id="MrNatty">
+										<label for="MrNatty">Mr Natty</label>
+									</div>
+									<div>
+										<input type="checkbox" name="Suavecito" id="Suavecito" checked>
+										<label for="Suavecito">Suavecito</label>
+									</div>
+									<div>
+										<input type="checkbox" name="Malin" id="Malin">
+										<label for="Malin">Malin+Goetz</label>
+									</div>
+									<div>
+										<input type="checkbox" name="Murrays" id="Murrays">
+										<label for="Murrays">Murray’s</label>
+									</div>
+									<div>
+										<input type="checkbox" name="AmericanCrew" id="AmericanCrew" checked>
+                  	<label for="AmericanCrew">American Crew</label>
+									</div>
 								</fieldset>
 								<fieldset class="productgroup">
-									<input type="checkbox" name="productgroup1" id="productgroup1" >
-                  <label for="productgroup1">Бритвенные принадлежности</label>
-									<input type="checkbox" name="productgroup2" id="productgroup2" checked>
-                  <label for="productgroup2">Средства для ухода</label>
-									<input type="checkbox" name="productgroup3" id="productgroup3">
-                  <label for="productgroup3">Аксессуары</label>
+									<div>
+										<input type="radio" name="productgroup" value="razor">
+                  	Бритвенные принадлежности
+									</div>
+									<div>
+										<input type="radio" name="productgroup" value="hygiene" checked>
+                  	Средства для ухода
+									</div>
+									<div>
+										<input type="radio" name="productgroup" value="accessories">
+                  	Аксессуары
+									</div>
 									<input type="submit" value="Показать">
 								</fieldset>
 							</form>
